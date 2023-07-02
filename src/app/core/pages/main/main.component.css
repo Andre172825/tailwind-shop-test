@@ -1,0 +1,20 @@
+.star {
+  background-image: url("../../../../assets/images/icons/star-regular.svg");
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  background-image: url("../../../../assets/images/icons/star-solid.svg");
+}
+
+input[type="radio"]:checked ~ label {
+  background-image: url("../../../../assets/images/icons/star-solid.svg");
+}
+
+.star svg path {
+  fill: yellow; /* Cambia el color a amarillo o el tono deseado */
+}
