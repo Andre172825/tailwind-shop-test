@@ -3,8 +3,5 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 1200px) {
-  html {
-    font-size: 125%;
-  }
-}
+
+
