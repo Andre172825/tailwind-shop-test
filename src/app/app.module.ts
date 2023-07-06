@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,11 +15,13 @@ import { MainV2Component } from './core/pages/main-v2/main-v2.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    MainV2Component
+    MainV2Component,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
